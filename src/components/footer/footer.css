@@ -1,0 +1,40 @@
+.footer {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: calc(100%);
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paginate-no {
+  display: flex;
+  gap: 2px;
+}
+
+.paginate-btn {
+  border-radius: 50%;
+  width: 30px;
+  /* height: 20px; */
+  /* border: 1px solid #c2c2c2; */
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  /* font-size: 10px */
+}
+
+.paginate-btn:hover {
+  background-color: rgba(0, 0, 0, 0.047);
+}
+
+.paginate-active {
+  background-color: var(--blue);
+  color: white;
+}
